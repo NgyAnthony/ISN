@@ -125,18 +125,57 @@ header
 
 }
 
-.row2{
+.row1{
     display: flex;
     grid-column: span 3;
     grid-row-start: row2;
-    justify-content: space-around;
-    align-items: flex-end;
+    justify-content: center;
 }
+
+#banner>img{
+    width: auto;
+    height: 250px;
+    grid-column: span3;
+    border-radius: 10px;
+}
+#banner{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#top-left-banner-button {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+#banner-title{
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: normal;
+    text-decoration: none;
+    color: #2c3e50;
+    font-size: x-large;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
 
 .row3{
     display: flex;
     grid-column: span 3;
     grid-row-start: row3;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.row4{
+    display: flex;
+    grid-column: span 3;
+    grid-row-start: row4;
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-end;
@@ -233,5 +272,17 @@ header
     box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
 }
 
+
+.btn-hover.color-9 {
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+
+
 /* Thanks and credits to https://gist.github.com/CodeMyUI/159d8070dcfeafecb7f019d29038b73f
 for the buttons and in particular to http://animista.net for the effects, you guys rock.*/
+
+
+
+
